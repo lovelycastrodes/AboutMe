@@ -1,0 +1,68 @@
+.ikaw{
+    list-style: none;
+    text-align: center;
+    border: 1px solid #000000;
+    background-color: wheat;
+}
+a{
+    color:black;
+}
+
+header{
+    background-color: ;
+}
+figure{
+    text-align: center;
+}
+img{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+body{
+    background-color: beige;
+}
+
+.me{
+    border: 1px solid black;
+    color: white;
+    background-color: indigo;
+}
+.favorite{
+    background-color: rgb(226, 16, 219);
+    border: 1px double green;
+}
+.color{
+    border: 5px solid orchid;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Trebuchet MS'
+}
+.anime{
+    list-style: none;
+    color: white;
+    border: 1px ;
+}
+.friends{
+    border: 2px dotted;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+.bff
+{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    color: cornsilk;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+
+.one, .two, .three{
+    color: black;
+}
