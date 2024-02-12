@@ -31,9 +31,11 @@ ul.anime{
     list-style-type: none;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     
 }
 .instrument{
+    color: bisque;
     text-align: center;
     list-style: none;
     font-family: cursive;
