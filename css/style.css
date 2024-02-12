@@ -1,3 +1,6 @@
+body{
+    background-color: #7077A1;
+}
 .ikaw{
     list-style: none;
     text-align: center;
@@ -8,32 +11,35 @@ a{
     color:black;
 }
 
-header{
-    background-color: ;
-}
 figure{
     text-align: center;
 }
 img{
-    border: 1px solid white;
+    border: 1px solid ;
     padding: 5px;
     border-radius: 5px;
-}
-body{
-    background-color: beige;
 }
 
 .me{
     border: 1px solid black;
-    color: white;
-    background-color: indigo;
 }
 .favorite{
-    background-color: rgb(226, 16, 219);
     border: 1px double green;
 }
+
+ul.anime{
+    list-style-type: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.instrument{
+    text-align: center;
+    list-style: none;
+    font-family: cursive;
+
+}
 .color{
-    border: 5px solid orchid;
     list-style: none;
     text-align: center;
     font-weight: bold;
@@ -60,9 +66,11 @@ body{
 }
 h3{
     text-align: center;
-    color: white;
+    color: #F6B17A;
 }
 
-.one, .two, .three{
+.one, .two, .three
+{ /* the h3 sa my lifestory*/
     color: black;
 }
+
