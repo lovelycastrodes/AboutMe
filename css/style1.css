@@ -1,11 +1,11 @@
-    ul.list{
+ul.list{
 list-style: none;
 margin: 0px;
 padding: 0;
 background-color: #f1f1f1;
 overflow: hidden;
-  
-}.list li{
+  }
+.list li{
     float: left;
 
 }
@@ -30,7 +30,7 @@ li a:hover {
 }
 
 body{
-    border: 1px solid green;
+    border: 10px solid green;
     background-image: url(bg4.jpg);
     background-repeat: no-repeat;
     background-position: right top;
