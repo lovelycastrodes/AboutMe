@@ -1,33 +1,58 @@
-ul.list{
+.list{
 list-style: none;
-margin: 0px;
+margin: 0;
 padding: 0;
 background-color: #f1f1f1;
 overflow: hidden;
-  
+float: right;
 }
-li{
-    float: left;
 
-}
 a{
     display: block;
     padding: 8px;
 }
+
+
 li a{
     display: block;
-    color: #000;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
+li a:link{
+    color: midnightblue;
+    }
+
+li a:visited{
+    color: maroon;
+}
+
 li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+li a:active{
+    color: #9638f3;
 }
 .home{
     background-color: rgb(20, 212, 20);
+}
+
+figure{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+img{
+
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 body{
@@ -36,4 +61,35 @@ body{
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+}
+
+.me{
+    border: 1px solid black;
+}
+.story{
+    border: 1px solid white ;
+    margin: 1px;
+    padding: 5px;
+}
+.one, .two, .three{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.hobby{
+    border: 1px solid black;
+    padding: 5px;
+}
+.favorite{
+    border: 1px solid black;
+    padding: 5px;
+}
+.anime, .color, .bff, .instrument{
+   list-style-type: circle;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.friends{
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 5px;
 }
