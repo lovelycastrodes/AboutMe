@@ -4,15 +4,16 @@ margin: 0;
 padding: 0;
 background-color: #f1f1f1;
 overflow: hidden;
-float: right;
+  
 }
+li{
+    float: left;
 
+}
 a{
     display: block;
     padding: 8px;
 }
-
-
 li a{
     display: block;
     color: black;
@@ -56,7 +57,7 @@ img{
 }
 
 body{
-
+    border: 10px solid green;
     background-image: url(bg4.jpg);
     background-repeat: no-repeat;
     background-position: right top;
